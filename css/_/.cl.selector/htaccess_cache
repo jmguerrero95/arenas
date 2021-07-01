@@ -1,0 +1,12 @@
+[/home/precepto/public_html]
+htaccess_list = /home/precepto/public_html/images/.htaccess,/home/precepto/public_html/adminsec/sistema_testeo/.htaccess,/home/precepto/public_html/adminsec/css/.htaccess,/home/precepto/public_html/.htaccess,/home/precepto/public_html/jp/upload/material/.htaccess,/home/precepto/public_html/jp/upload/material/materno/.htaccess,/home/precepto/public_html/css/.htaccess
+
+[/home/precepto/educodigital.com]
+htaccess_list = /home/precepto/educodigital.com/.htaccess
+
+[/home/precepto/estudioyempleo.com]
+htaccess_list = 
+
+[/home/precepto/api.preceptores-cpa.com.ar]
+htaccess_list = /home/precepto/api.preceptores-cpa.com.ar/public/.htaccess,/home/precepto/api.preceptores-cpa.com.ar/.htaccess
+

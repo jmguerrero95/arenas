@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="stylesheet" type="text/css" href="css/estilos2.css">
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script type="text/javascript">
+      $(document).ready(function(){
+      	$('.carousel').carousel();
+      	$('.carousel').carousel({fullWidth: false})
+      });
+</script>
+
+ 	<title>
+		A R E N A S 
+	</title>
+</head>
+<body>
+	<a class= "btn-floating grey darken-3 right " id="flecha_siguiente" >
+            <i class="material-icons">keyboard_arrow_right</i>
+          </a>
+           <a class= "btn-floating grey darken-3 left " id="flecha_anterior" > 
+            <i class="material-icons">keyboard_arrow_left</i>
+          </a>
+	<!--comienzo carrusel principal-->
+	<div class="carousel carousel-slider" style="height: 100%" data-indicators="true">
+		<div class="row">
+		<div class="hide-on-med-and-down">
+		    <div class="carousel-fixed-item">
+			    <div class="col s12 center">
+				    <a class="tooltipped" data-position="top" data-delay="100" data-tooltip="Instagram" href="#"> <img alt="logo de Instagram" title="" src="imagenes/logo_ig.png" class="iconos"> </a>
+				     
+				    <a class="tooltipped link_red_social" data-position="top" data-delay="100" data-tooltip="Facebook" href="#"> <img alt="logo de facebook" title="" src="imagenes/logo_fb.png" class="iconos"></a>
+				     
+				    <a class="tooltipped link_red_social" data-position="top" data-delay="100" data-tooltip="Google" href="#"> <img alt="Logo de Google" title="" src="imagenes/logo_google.png" class="iconos"></a>
+				      
+				    <a class="tooltipped link_red_social" data-position="top" data-delay="100" data-tooltip="Blog" href="#"> <img alt="Logo del Blog" title="" src="imagenes/logo_blog.png" class="iconos"></a>
+			    </div>
+			</div>
+		</div>
+			<div class="carousel-fixed-item hide-on-large-only">
+			    <div class="col s12 center">
+			      <a class="tooltipped" data-position="top" data-delay="100" data-tooltip="Instagram" href="#"> <img alt="logo de Instagram" title="" src="imagenes/logo_ig.png" class="iconos_cel"> </a>
+			     
+			      <a class="tooltipped link_red_social" data-position="top" data-delay="100" data-tooltip="Facebook" href="#"> <img alt="logo de facebook" title="" src="imagenes/logo_fb.png" class="iconos_cel"></a>
+			     
+			      <a class="tooltipped link_red_social" data-position="top" data-delay="100" data-tooltip="Google" href="#"> <img alt="Logo de Google" title="" src="imagenes/logo_google.png" class="iconos_cel"></a>
+			      
+			      <a class="tooltipped link_red_social" data-position="top" data-delay="100" data-tooltip="Blog" href="#"> <img alt="Logo del Blog" title="" src="imagenes/logo_blog.png" class="iconos_cel"></a>
+			    </div>
+		    </div>
+		    <div class="carousel-item white-text primero" href="#one!">
+		    	<img id="fondo" src="imagenes/fondo1.jpg"> <!--imagen de fondo-->
+			    <img   src="imagenes/logo.png" id="logo">
+			    <!--eslogan vista desktop-->
+			    <div id="eslogan" class="col s12 hide-on-med-and-down">
+				    <h3 class="center"> ¡Dale espacio a la imaginacion!</h3>
+				    <h6 class="center"> Desde 2015</h6>
+			    </div>
+			    <!--fin desktop-->
+			    <!--eslogan vista movil-->
+			    <div id="eslogan_cel" class="col s12 hide-on-large-only">
+				    <h3 class="center"> ¡Dale espacio a la imaginacion!</h3>
+				    <h6 class="center"> Desde 2015</h6>
+			    </div>
+			    <div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+			    <!--fin eslogan-->
+		    </div>
+		    <div class="carousel-item white-text vista2" href="#two!">
+		    <img src="imagenes/fondo2.jpg" id="img_ver">
+		    <img src="imagenes/fondo2.jpg" id="img_ver2">
+		    
+		      <h2 class="center">Nosotros</h2>
+		      <p class=" center white-text">A R E N A S</p>
+		    </div>
+		    <div class="carousel-item white-text vista3" href="#three!">
+		      <h2>Third Panel</h2>
+		      <p class="white-text">This is your third panel</p>
+		    </div>
+		    <div class="carousel-item white-text vista4" href="#four!">
+		      <h2>Fourth Panel</h2>
+		      <p class="white-text">This is your fourth panel</p>
+		    </div>
+		    <!--fin carrusel principal-->
+		</div>
+	</div>
+	<!--fin carrusel principal-->
+</body>
+</html>

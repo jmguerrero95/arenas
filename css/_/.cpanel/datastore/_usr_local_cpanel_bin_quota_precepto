@@ -1,0 +1,2 @@
+dev                      blocks      quota      limit      grace      files      quota      limit      grace
+/dev/md2                 172500   15360000   15360000                  2380          0          0           
